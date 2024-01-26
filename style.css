@@ -1,0 +1,59 @@
+.boton1, .boton2, .boton3, .boton4,.boton5{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 10px; 
+}
+
+.container-menu {
+    width: 180px;
+    margin-top: 25px;
+    margin-left: 25px;
+    position: fixed;
+}
+.container-menu h1{
+    font-size:1.8em;
+}
+
+
+button {
+    background-color: rgb(194, 191, 186);
+    transition: background-color 0.4s ; 
+
+    
+    &:hover {
+        background-color:whitesmoke;
+    }
+}
+main {
+    margin-left: 220px; 
+    padding: 20px;
+    width: 800px;
+    margin-left: 300px;
+    width: 70%;
+    margin-right: 40px;
+}
+
+
+.main-container {
+    display: flex;
+    overflow-x: auto; 
+}
+
+
+
+.boton {
+    position: sticky;
+    top: 0;
+    background-color: rgb(194, 191, 186);
+    padding: 10px;
+    margin-right: 10px; 
+    z-index: 1; 
+}
+
+
+.article {
+    flex-shrink: 0; 
+    width: 100%; 
+}
+
